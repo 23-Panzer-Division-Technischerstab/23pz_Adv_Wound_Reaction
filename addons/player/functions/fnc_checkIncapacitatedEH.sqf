@@ -24,5 +24,14 @@ _oldbodyAreaStates params ["_oldBodyState","_oldArmsState","_oldLegsState"];
 TRACE_2("Updating",_bodyAreaStates,_oldbodyAreaStates);
 [_unit,_oldbodyAreaStates,_bodyAreaStates,_inDeepWater] call FUNC(handleWeaponUsage);
 
+//post state updates update duty Factor 
+_isIncapacitated = (_bodyState == 2 || _legsState > 0);
+_awr_loadFactor = 1.0;
+if(_isIncapacitated) then {
+    _awr_loadFactor = GVAR(incapDutyFactor);
+};
+
+["awr_loadFactor", _awr_loadFactor] call ace_advanced_fatigue_fnc_addDutyFactor;
+
 
 _isCarryable = [_unit,_oldbodyAreaStates,_bodyAreaStates,_inDeepWater] call FUNC(handleLegsDamage);

@@ -166,5 +166,13 @@ None: No reaction to damage in limbs\nDamage: Reaction is only based on the dama
             <English>The time the unit will stay on in the concussion state. The blur and deafness is twice as long as this time.</English>
             <German>Die Zeit wie lange die Person am Boden bleibt. Die Zeit der verschwommenen Sicht und der Taubheit ist doppelt so lange.</German>
         </Key>
+        <Key ID="STR_AWR_Player_IncapDutyFactor_DisplayName">
+            <English>Incapacitated Duty Factor</English>
+            <German>Entmündigt Belastungsfaktor</German>
+        </Key>
+        <Key ID="STR_AWR_Player_IncapDutyFactor_Description">
+            <English>Scalar applied to stamina costs when incapacitated</English>
+            <German>Ausdauer-Skalar, wenn er außer Gefecht gesetzt ist</German>
+        </Key>
     </Package>
 </Project>
