@@ -47,7 +47,7 @@ _wasFatal = _oldLegsState == 2 || _oldBodyState == 2;
 _isFallingDown = _unit getVariable [QEGVAR(main,fallingDown), false];
 if(GVAR(goProne) && !(_unit getVariable [QGVAR(isSurrendered),false]) && (_legsState == 2 || _bodyState == 2)) then {
 	if(GVAR(playFallAnimation) && _isFatal && !_wasFatal) then {
-		TRACE_1("Playing falling animation", _unit);
+		TRACE_1("Playing falling animation",_unit);
 		_unit call EFUNC(main,fallDown);
 	} else {
 		if(!_isFallingDown && (lifeState _unit) != "INCAPACITATED" && stance _unit != "PRONE" && stance _unit != "UNDEFINED") then {

@@ -42,7 +42,7 @@ _areaDamages set [2, (_painStates select 2) max (_damageStates select 2)];
 
 _isBurning = _unit call ACEFUNC(fire,isBurning);
 _burnTimer = _unit getVariable [QGVAR(burnTimer), 0.0];
-TRACE_3("Burn check", _isBurning, _burnTimer, _deltaT);
+TRACE_3("Burn check",_isBurning,_burnTimer,_deltaT);
 if(_isBurning && _burnTimer < BURN_TIME_TO_FATAL) then {
     _burnTimer = _burnTimer + _deltaT;
 } else {
@@ -50,7 +50,7 @@ if(_isBurning && _burnTimer < BURN_TIME_TO_FATAL) then {
         _burnTimer = 0.0;
     };
 };
-TRACE_1("Setting burnTimer", _burnTimer);
+TRACE_1("Setting burnTimer",_burnTimer);
 _unit setVariable [QGVAR(burnTimer), _burnTimer, true];
 
 if(_burnTimer >= BURN_TIME_TO_FATAL) then {

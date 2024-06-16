@@ -16,15 +16,15 @@
 */
 
 params ["_unit", ["_wakeUpTime", 1, [1]]];
-TRACE_2("Called fallDown", _unit, _wakeUpTime);
+TRACE_2("Called fallDown",_unit,_wakeUpTime);
 _isFallingDown = _unit getVariable [QGVAR(fallingDown), false];
-TRACE_2("IsFallingDown", _unit,_isFallingDown);
+TRACE_2("IsFallingDown",_unit,_isFallingDown);
 if(_isFallingDown) exitWith {};
 _isAlive = alive _unit;
 _lifeState = lifeState _unit;
 TRACE_3("Unit State",_unit,_isAlive,_lifeState);
 if(!_isAlive || {_lifeState == "INCAPACITATED"}) exitWith {};
-TRACE_2("Allowed to play fallDown", _unit, _wakeUpTime);
+TRACE_2("Allowed to play fallDown",_unit,_wakeUpTime);
 [_unit, _wakeUpTime] spawn {
 	params ["_unit", "_wakeUpTime"];
 	_unit setVariable [QGVAR(fallingDown), true, true];
