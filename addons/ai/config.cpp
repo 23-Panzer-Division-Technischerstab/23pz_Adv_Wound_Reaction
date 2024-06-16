@@ -7,7 +7,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"CBA_main", "ace_medical"};
         author = ECSTRING(main,79AD);
-        authors[] = {"[79AD] S. Spartan"};
+        authors[] = {"[79AD] S. Spartan",  "[23PzD] Carlsen"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

@@ -1,8 +1,8 @@
-name = "AWR - Advanced Wound Reaction v0.0.0";
-description = "Advanced Wound Reaction v0.0.0";
-tooltip = "Advanced Wound Reaction";
+name = "AWR - Advanced Wound Reaction v0.0.0, with 23PzD Mods";
+description = "Advanced Wound Reaction v0.0.0, with 23PzD Mods";
+tooltip = "Advanced Wound Reaction with 23PzD Mods";
 overview = "Extension for ACE3's medical system. Adds more reactions when dealing with injuries.";
-author = "[79AD] S. Spartan";
+author = "[79AD] S. Spartan, [23PzD] Carlsen";
 logo = "AWR_logo.paa";
 logoOver = "AWR_logo.paa";
 actionName = "GitHub";

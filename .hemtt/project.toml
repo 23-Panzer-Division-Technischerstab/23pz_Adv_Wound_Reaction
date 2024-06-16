@@ -1,6 +1,6 @@
-name = "AWR"
+name = "AWR_PzDMod"
 prefix = "awr"
-author = "[79AD] S. Spartan"
+author = "[79AD] S. Spartan, [23PzD] Carlsen"
 template = "cba"
 mainprefix = "z"
 #include = ["./include"]
