@@ -168,11 +168,11 @@ None: No reaction to damage in limbs\nDamage: Reaction is only based on the dama
         </Key>
         <Key ID="STR_AWR_Player_IncapDutyFactor_DisplayName">
             <English>Incapacitated Duty Factor</English>
-            <German>Entmündigt Belastungsfaktor</German>
+            <German>Außergefecht-Belastungsfaktor</German>
         </Key>
         <Key ID="STR_AWR_Player_IncapDutyFactor_Description">
             <English>Scalar applied to stamina costs when incapacitated</English>
-            <German>Ausdauer-Skalar, wenn er außer Gefecht gesetzt ist</German>
+            <German>Ausdauermultiplikator, wenn außer Gefecht gesetzt ist</German>
         </Key>
     </Package>
 </Project>
