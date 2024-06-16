@@ -93,6 +93,6 @@
     "SLIDER", // setting type
     [LSTRING(IncapDutyFactor_DisplayName), LSTRING(IncapDutyFactor_Description)], // Pretty name shown inside the ingame settings menu. Can be stringtable entry.
     [ELSTRING(main,Category), LSTRING(SubCategory)], // Pretty name of the category where the setting can be found. Can be stringtable entry.
-    [0.0, 10, 2, 2], // data for this setting: [min, max, default, number of shown trailing decimals]
+    [0.0, 20, 10, 2], // data for this setting: [min, max, default, number of shown trailing decimals]
     true // "_isGlobal" flag. Set this to true to always have this setting synchronized between all clients in multiplayer
 ] call CBA_fnc_addSetting;
