@@ -5,17 +5,17 @@
             <English>AWR Settings (IMS Compat)</English>
             <German>AWR Einstellungen (IMS Compat)</German>
         </Key>
-        <Key ID="STR_AWR_Compat_IMS_Subcategory">
-            <English>General</English>
-            <German>Allgemein</German>
+        <Key ID="STR_AWR_Compat_IMS_IgnoreIMSWeapons_Description">
+            <English>Determines if IMS weapons shall be ignored for the handgun chances so that they can't be used when in AWR state.</English>
+            <German>Legt fest, ob IMS Waffen für die Handwaffen Chance ignoriert werden sollen, so dass diese nicht benutzt werden können im AWR Status.</German>
         </Key>
         <Key ID="STR_AWR_Compat_IMS_IgnoreIMSWeapons_DisplayName">
             <English>Ignore IMS Weapons</English>
             <German>Ignore IMS Weapons</German>
         </Key>
-        <Key ID="STR_AWR_Compat_IMS_IgnoreIMSWeapons_Description">
-            <English>Determines if IMS weapons shall be ignored for the handgun chances so that they can't be used when in AWR state.</English>
-            <German>Legt fest, ob IMS Waffen für die Handwaffen Chance ignoriert werden sollen, so dass diese nicht benutzt werden können im AWR Status.</German>
+        <Key ID="STR_AWR_Compat_IMS_Subcategory">
+            <English>General</English>
+            <German>Allgemein</German>
         </Key>
     </Package>
 </Project>

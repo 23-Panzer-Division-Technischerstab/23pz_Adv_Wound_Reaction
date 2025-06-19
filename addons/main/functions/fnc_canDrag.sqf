@@ -29,4 +29,4 @@ if !([_unit, _target, ["isNotSwimming"]] call ACEFUNC(common,canInteractWith)) e
 _bodyAreasSates = _target getVariable [QGVAR(bodyAreaStates), [0,0,0]];
 _bodyAreasSates params ["_bodyState","_armsSate","_legsState"];
 
-alive _target && {vehicle _target isEqualto _target} && {_bodyState == 2 || _legsState == 2};
+alive _target && {vehicle _target isEqualTo _target} && {_bodyState == 2 || _legsState == 2};

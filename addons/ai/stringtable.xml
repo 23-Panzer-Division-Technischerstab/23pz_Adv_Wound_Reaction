@@ -1,125 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="AWR">
     <Package name="AI">
-        <Key ID="STR_AWR_AI_AI_DisplayName">
-            <English>Enabled?</English>
-            <German>Aktiviert?</German>
-        </Key>
-        <Key ID="STR_AWR_AI_SubCategory">
-            <English>AI</English>
-            <German>KI</German>
-        </Key>
         <Key ID="STR_AWR_AI_AI_Description">
             <English>Determines if this module is enabled.</English>
             <German>Bestimmt, ob dieses Modul aktiv ist.</German>
         </Key>
-        <Key ID="STR_AWR_AI_WeaponHandleMode_DisplayName">
-            <English>Weapon drop type</English>
-            <German>Waffen fallenlassen Art</German>
-        </Key>
-        <Key ID="STR_AWR_AI_WeaponHandleMode_Description">
-            <English>The way the weapon is dropped.\nNone: don't drop the weapon.\nDrop: Drop the weapon on the ground.\nPut on back\nPut the weapon the on the back.</English>
-            <German>Die Weise wie die Waffen fallen gelassen wird.\nKeine: Waffe nicht fallen lassen.\nFallen lassen: Waffe wird auf den Boden fallen gelassen.\nAuf den Rücken: Waffe wird auf den Rücken gepackt.</German>
-        </Key>
-        <Key ID="STR_AWR_AI_ModeNone">
-            <English>None</English>
-            <German>Keine</German>
-        </Key>
-        <Key ID="STR_AWR_AI_ModeDrop">
-            <English>Drop</English>
-            <German>Fallen lassen</German>
-        </Key>
-        <Key ID="STR_AWR_AI_ModeBack">
-            <English>Put on back</English>
-            <German>Auf den Rücken</German>
-        </Key>
-        <Key ID="STR_AWR_AI_GoProne_DisplayName">
-            <English>Go Prone?</English>
-            <German>Hinlegen?</German>
-        </Key>
-        <Key ID="STR_AWR_AI_GoProne_Description">
-            <English>Enable this if you want the player to lay down when too injuried.</English>
-            <German>Aktivieren um den Spieler hinlegen zu lassen, wenn die Verletzungen zu stark sind.</German>
-        </Key>
-        <Key ID="STR_AWR_AI_PainThreshold_DisplayName">
-            <English>Pain treshold</English>
-            <German>Schmerzgrenze</German>
-        </Key>
-        <Key ID="STR_AWR_AI_PainThresold_Description">
-            <English>The threshold for the pain level.</English>
-            <German>Die Grenze für den Schmerzlevel.</German>
-        </Key>
-        <Key ID="STR_AWR_AI_Drag">
-            <English>Drag</English>
-            <German>Drag</German>
-        </Key>
-        <Key ID="STR_AWR_AI_Carry">
-            <English>Carry</English>
-            <German>Carry</German>
-        </Key>
-        <Key ID="STR_AWR_AI_HandgunChance_DisplayName">
-            <English>Keep Handgun chance</English>
-            <German>Chance Waffe zu behalten</German>
-        </Key>
-        <Key ID="STR_AWR_AI_HandgunChance_Description">
-            <English>The chance the player may use the handgun if incapacitated.</English>
-            <German> zu welcher der Spieler die Handwaffe benutzen darf, wenn dieser handlungsunfähig ist.</German>
-        </Key>
-        <Key ID="STR_AWR_AI_IncapacitationType_DisplayName">
-            <English>Incapacitation Type</English>
-            <German>Kampfunfähigkeits Art</German>
-        </Key>
-        <Key ID="STR_AWR_AI_IncapacitationType_Description">
-            <English>Determines by which source the incapacitation state is triggerd.</English>
-            <German>Bestimmt auf welche Art die Zustand der Kampfunfähigkeit ausgelöst wird.</German>
-        </Key>
-        <Key ID="STR_AWR_AI_TypePain">
-            <English>Pain</English>
-            <German>Schmerz</German>
-        </Key>
-        <Key ID="STR_AWR_AI_TypeDamage">
-            <English>Damage</English>
-            <German>Schaden</German>
-        </Key>
-        <Key ID="STR_AWR_AI_TypeBoth">
-            <English>Both</English>
-            <German>Beides</German>
-        </Key>
-        <Key ID="STR_AWR_AI_BodyDamageThreshold_DisplayName">
-            <English>Body Damage Threshold</English>
-            <German>Körper Schadensschwelle</German>
-        </Key>
-        <Key ID="STR_AWR_AI_BodyDamageThreshold_Description">
-            <English>The threshold to trigger incapacitation fom body damage.</English>
-            <German>Der Schwellwert bei dem die Kampfunfähigkeit durch Körperschaden ausgelöst wird.</German>
-        </Key>
-        <Key ID="STR_AWR_AI_ArmsDamageThreshold_DisplayName">
-            <English>Arms Damage Threshold</English>
-            <German>Arme Schadensschwelle</German>
+        <Key ID="STR_AWR_AI_AI_DisplayName">
+            <English>Enabled?</English>
+            <German>Aktiviert?</German>
         </Key>
         <Key ID="STR_AWR_AI_ArmsDamageThreshold_Description">
             <English>The threshold for the damage for the arms. If one arm is hurt the primary weapon is unusable. If both arms are hurt then the handgun will also be unasable.</English>
             <German>Der Schwellwert für die Arme. Wenn ein Arm verletzt ist, wird die Hauptwaffe unbrauchbar. Sind beide Arme verletzt, wird auch die Seitenwaffe unbrauchbar.</German>
         </Key>
-        <Key ID="STR_AWR_AI_LegsDamageThreshold_DisplayName">
-            <English>Legs Damage Threshold</English>
-            <German>Beine Schadensschwelle</German>
+        <Key ID="STR_AWR_AI_ArmsDamageThreshold_DisplayName">
+            <English>Arms Damage Threshold</English>
+            <German>Arme Schadensschwelle</German>
+        </Key>
+        <Key ID="STR_AWR_AI_BodyDamageThreshold_Description">
+            <English>The threshold to trigger incapacitation fom body damage.</English>
+            <German>Der Schwellwert bei dem die Kampfunfähigkeit durch Körperschaden ausgelöst wird.</German>
+        </Key>
+        <Key ID="STR_AWR_AI_BodyDamageThreshold_DisplayName">
+            <English>Body Damage Threshold</English>
+            <German>Körper Schadensschwelle</German>
+        </Key>
+        <Key ID="STR_AWR_AI_Carry">
+            <English>Carry</English>
+            <German>Carry</German>
+        </Key>
+        <Key ID="STR_AWR_AI_Concussion_Description">
+            <English>If enabled a concussion effect will be applied when hit in the head. The player will fall to the ground, vision is blurred and hearing is lowered for a short amount of time.</English>
+            <German>Wenn aktiviert wird beim Treffer in den Kopf ein Gehirnerschütterungseffekt angewendet. Der Spieler fällt zu Boden, die Sicht ist verschwommen und das Gehört ist verringert für eine kurze Zeit.</German>
+        </Key>
+        <Key ID="STR_AWR_AI_Concussion_DisplayName">
+            <English>Concussion?</English>
+            <German>Gehirnerschütterung?</German>
+        </Key>
+        <Key ID="STR_AWR_AI_Drag">
+            <English>Drag</English>
+            <German>Drag</German>
+        </Key>
+        <Key ID="STR_AWR_AI_GoProne_Description">
+            <English>Enable this if you want the player to lay down when too injuried.</English>
+            <German>Aktivieren um den Spieler hinlegen zu lassen, wenn die Verletzungen zu stark sind.</German>
+        </Key>
+        <Key ID="STR_AWR_AI_GoProne_DisplayName">
+            <English>Go Prone?</English>
+            <German>Hinlegen?</German>
+        </Key>
+        <Key ID="STR_AWR_AI_HandgunChance_Description">
+            <English>The chance the player may use the handgun if incapacitated.</English>
+            <German>zu welcher der Spieler die Handwaffe benutzen darf, wenn dieser handlungsunfähig ist.</German>
+        </Key>
+        <Key ID="STR_AWR_AI_HandgunChance_DisplayName">
+            <English>Keep Handgun chance</English>
+            <German>Chance Waffe zu behalten</German>
+        </Key>
+        <Key ID="STR_AWR_AI_IncapacitationType_Description">
+            <English>Determines by which source the incapacitation state is triggerd.</English>
+            <German>Bestimmt auf welche Art die Zustand der Kampfunfähigkeit ausgelöst wird.</German>
+        </Key>
+        <Key ID="STR_AWR_AI_IncapacitationType_DisplayName">
+            <English>Incapacitation Type</English>
+            <German>Kampfunfähigkeits Art</German>
         </Key>
         <Key ID="STR_AWR_AI_LegsDamageThreshold_Description">
             <English>The threshold for the legs damage. If one leg is hurt the unit starts limping. When both legs are hurt the unit is unable to stand up.</English>
             <German>Der Schwellwert für die Beine. Ist ein Bein verletzt, fängt die Einheit an zu humpeln. Sind beide Beine verletzt, kann die Einheit nicht mehr stehen.</German>
         </Key>
-        <Key ID="STR_AWR_AI_LimbHandleMode_DisplayName">
-            <English>Limbs Damage Mode</English>
-            <German>Gliedmaßen Schadenstyp</German>
+        <Key ID="STR_AWR_AI_LegsDamageThreshold_DisplayName">
+            <English>Legs Damage Threshold</English>
+            <German>Beine Schadensschwelle</German>
         </Key>
         <Key ID="STR_AWR_AI_LimbHandleMode_Description">
             <English>The way limbs damage will be handled.\nNone: No reaction to damage in limbs\nDamage: Reaction is only based on the damage threshold.\nFractures: Reactions will only trigger on fractures.\nBoth: Reaction will trigger in both cases.</English>
             <German>Die Weise wie der Schaden von Gliedmaßen behandelt wird.\nKein: Keine Reaktion bei Schaden an den Gliedmaßen\nSchaden: Reaktion basiert auf der Schadensschwelle\nFrakturen: Reaktion wird nur durch Frakturen ausgelöst\nBeides: Reaktion wird in beiden fällen ausgelöst</German>
         </Key>
-        <Key ID="STR_AWR_AI_LimbModeNone">
-            <English>None</English>
-            <German>Kein</German>
+        <Key ID="STR_AWR_AI_LimbHandleMode_DisplayName">
+            <English>Limbs Damage Mode</English>
+            <German>Gliedmaßen Schadenstyp</German>
+        </Key>
+        <Key ID="STR_AWR_AI_LimbModeBoth">
+            <English>Both</English>
+            <German>Beides</German>
         </Key>
         <Key ID="STR_AWR_AI_LimbModeDamage">
             <English>Damage</English>
@@ -129,57 +93,93 @@
             <English>Fractures</English>
             <German>Frakturen</German>
         </Key>
-        <Key ID="STR_AWR_AI_LimbModeBoth">
-            <English>Both</English>
-            <German>Beides</German>
+        <Key ID="STR_AWR_AI_LimbModeNone">
+            <English>None</English>
+            <German>Kein</German>
         </Key>
-        <Key ID="STR_AWR_AI_PlayFallAnimation_DisplayName">
-            <English>Use falling animation</English>
-            <German>Fall Animation benutzen</German>
+        <Key ID="STR_AWR_AI_ModeBack">
+            <English>Put on back</English>
+            <German>Auf den Rücken</German>
+        </Key>
+        <Key ID="STR_AWR_AI_ModeDrop">
+            <English>Drop</English>
+            <German>Fallen lassen</German>
+        </Key>
+        <Key ID="STR_AWR_AI_ModeNone">
+            <English>None</English>
+            <German>Keine</German>
+        </Key>
+        <Key ID="STR_AWR_AI_PainThreshold_DisplayName">
+            <English>Pain treshold</English>
+            <German>Schmerzgrenze</German>
+        </Key>
+        <Key ID="STR_AWR_AI_PainThresold_Description">
+            <English>The threshold for the pain level.</English>
+            <German>Die Grenze für den Schmerzlevel.</German>
         </Key>
         <Key ID="STR_AWR_AI_PlayFallAnimation_Description">
             <English>Determines if an animation shall be played if legs reaction is triggered.</English>
             <German>Bestimmt, ob eine Animation abgespielt werden soll, wenn die Reaktionen für die Beine ausgelöst werden.</German>
         </Key>
-        <Key ID="STR_AWR_AI_Concussion_DisplayName">
-            <English>Concussion?</English>
-            <German>Gehirnerschütterung?</German>
+        <Key ID="STR_AWR_AI_PlayFallAnimation_DisplayName">
+            <English>Use falling animation</English>
+            <German>Fall Animation benutzen</German>
         </Key>
-        <Key ID="STR_AWR_AI_Concussion_Description">
-            <English>If enabled a concussion effect will be applied when hit in the head. The player will fall to the ground, vision is blurred and hearing is lowered for a short amount of time.</English>
-            <German>Wenn aktiviert wird beim Treffer in den Kopf ein Gehirnerschütterungseffekt angewendet. Der Spieler fällt zu Boden, die Sicht ist verschwommen und das Gehört ist verringert für eine kurze Zeit.</German>
-        </Key>
-        <Key ID="STR_AWR_AI_SurrenderChance_DisplayName">
-            <English>Surrender Chance</English>
-            <German>Ergebe Chance</German>
-        </Key>
-        <Key ID="STR_AWR_AI_SurrenderChance_Description">
-            <English>The chance of surrender checked every 10 seconds after dropping the primary weapon.</English>
-            <German>Die Chance des Ergebens wird alle 10 sekunden geprüft, nachdem die primäre Waffe fallen gelassen wurde.</German>
-        </Key>
-        <Key ID="STR_AWR_AI_SurrenderChancePerEnemy_DisplayName">
-            <English>Added Chance per Enemy</English>
-            <German>Weitere Chance pro Gegner</German>
+        <Key ID="STR_AWR_AI_SubCategory">
+            <English>AI</English>
+            <German>KI</German>
         </Key>
         <Key ID="STR_AWR_AI_SurrenderChancePerEnemy_Description">
             <English>The chance percentage that is added per enemy to the surrender chance. This amount is also subtracted for each friendly nearby. The overall chance from enemy is capped at 85%.</English>
             <German>Die prozentuale Chance die pro Gegner auf die Ergeben Chance addiert wird. Dieser Anteil wird auch abgzogen für jeden Freund in der Nähe. Die gesamte Chance durch die Gegner ist auf 85% begrenzt.</German>
         </Key>
-        <Key ID="STR_AWR_AI_SurrenderEnable_DisplayName">
-            <English>Surrender?</English>
-            <German>Ergeben?</German>
+        <Key ID="STR_AWR_AI_SurrenderChancePerEnemy_DisplayName">
+            <English>Added Chance per Enemy</English>
+            <German>Weitere Chance pro Gegner</German>
         </Key>
-        <Key ID="STR_AWR_AI_SurrenderEnable_Description">
-            <English>Determines if the surrendering should be enabled.</English>
-            <German>Legt fest, ob das Ergeben aktiviert sein soll.</German>
+        <Key ID="STR_AWR_AI_SurrenderChance_Description">
+            <English>The chance of surrender checked every 10 seconds after dropping the primary weapon.</English>
+            <German>Die Chance des Ergebens wird alle 10 sekunden geprüft, nachdem die primäre Waffe fallen gelassen wurde.</German>
+        </Key>
+        <Key ID="STR_AWR_AI_SurrenderChance_DisplayName">
+            <English>Surrender Chance</English>
+            <German>Ergebe Chance</German>
+        </Key>
+        <Key ID="STR_AWR_AI_SurrenderDistance_Description">
+            <English>The distance to check for enemies and friends.</English>
+            <German>Die Distanz für Gegner und Freunde zum prüfen.</German>
         </Key>
         <Key ID="STR_AWR_AI_SurrenderDistance_DisplayName">
             <English>Surrender distance</English>
             <German>Ergebe Distanz</German>
         </Key>
-        <Key ID="STR_AWR_AI_SurrenderDistance_Description">
-            <English>The distance to check for enemies and friends.</English>
-            <German>Die Distanz für Gegner und Freunde zum prüfen.</German>
+        <Key ID="STR_AWR_AI_SurrenderEnable_Description">
+            <English>Determines if the surrendering should be enabled.</English>
+            <German>Legt fest, ob das Ergeben aktiviert sein soll.</German>
+        </Key>
+        <Key ID="STR_AWR_AI_SurrenderEnable_DisplayName">
+            <English>Surrender?</English>
+            <German>Ergeben?</German>
+        </Key>
+        <Key ID="STR_AWR_AI_TypeBoth">
+            <English>Both</English>
+            <German>Beides</German>
+        </Key>
+        <Key ID="STR_AWR_AI_TypeDamage">
+            <English>Damage</English>
+            <German>Schaden</German>
+        </Key>
+        <Key ID="STR_AWR_AI_TypePain">
+            <English>Pain</English>
+            <German>Schmerz</German>
+        </Key>
+        <Key ID="STR_AWR_AI_WeaponHandleMode_Description">
+            <English>The way the weapon is dropped.\nNone: don't drop the weapon.\nDrop: Drop the weapon on the ground.\nPut on back\nPut the weapon the on the back.</English>
+            <German>Die Weise wie die Waffen fallen gelassen wird.\nKeine: Waffe nicht fallen lassen.\nFallen lassen: Waffe wird auf den Boden fallen gelassen.\nAuf den Rücken: Waffe wird auf den Rücken gepackt.</German>
+        </Key>
+        <Key ID="STR_AWR_AI_WeaponHandleMode_DisplayName">
+            <English>Weapon drop type</English>
+            <German>Waffen fallenlassen Art</German>
         </Key>
     </Package>
 </Project>

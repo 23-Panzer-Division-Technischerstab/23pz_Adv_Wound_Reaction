@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="AWR">
     <Package name="Main">
-        <Key ID="STR_AWR_Main_Category">
-            <English>AWR Settings</English>
-            <German>AWR Einstellungen</German>
-        </Key>
         <Key ID="STR_AWR_Main_79AD">
             <English>79AD</English>
             <German>79AD</German>
         </Key>
-        <Key ID="STR_AWR_Main_Drag">
-            <English>Drag</English>
-            <German>Drag</German>
+        <Key ID="STR_AWR_Main_BandagingMultiplier_Description">
+            <English>Multiplier to be applied to the bandaging when AWR is triggered.</English>
+            <German>Faktor der auf das Bandagieren angewendet wird, wenn AWR ausgelöst wird.</German>
+        </Key>
+        <Key ID="STR_AWR_Main_BandagingMultiplier_DisplayName">
+            <English>Bandaging multiplier</English>
+            <German>Bandagierungsfaktor</German>
         </Key>
         <Key ID="STR_AWR_Main_Carry">
             <English>Carry</English>
             <German>Carry</German>
         </Key>
-        <Key ID="STR_AWR_Main_SubCategory">
-            <English>General</English>
-            <German>Allgemein</German>
-        </Key>
-        <Key ID="STR_AWR_Main_IgnoreChanceClasses_DisplayName">
-            <English>Chance ignore classes</English>
-            <German>ignorierte Chance Klassen</German>
-        </Key>
-        <Key ID="STR_AWR_Main_IgnoreChanceClasses_Description">
-            <English>List of class names to ignore for the handgun chances. Weapons of this classes will always be dropped.\nIn array format e.g.: ["class1", "class2"]</English>
-            <German>Liste von Klassennamen, welche für die Handwaffen Chance ignoriert werden. Diese Waffen werden immer fallengelassen.\nSchreibweise in Array Format z.B.: ["Klasse1", "Klasse2"]</German>
-        </Key>
-        <Key ID="STR_AWR_Main_URL">
-            <English>https://github.com/Spartan190/Adv_Wound_Reaction</English>
-            <German>https://github.com/Spartan190/Adv_Wound_Reaction</German>
-        </Key>
-        <Key ID="STR_AWR_Main_DamageIgnoreLevel_DisplayName">
-            <English>Wound Ignore Type</English>
-            <German>Wunden Ignorieren Art</German>
-        </Key>
-        <Key ID="STR_AWR_Main_DamageIgnoreLevel_Description">
-            <English>Determines when a wound is ignored for the damage calculation.</English>
-            <German>Bestimmt wann eine Wunde für die Schadensberechnung ignoriert wird.</German>
+        <Key ID="STR_AWR_Main_Category">
+            <English>AWR Settings</English>
+            <German>AWR Einstellungen</German>
         </Key>
         <Key ID="STR_AWR_Main_DamageIgnoreLevel_AfterBandage">
             <English>After Bandaging</English>
@@ -49,33 +29,53 @@
             <English>After Stitching</English>
             <German>Nach Nähen</German>
         </Key>
-        <Key ID="STR_AWR_Main_Hints_DisplayName">
-            <English>Display Hints</English>
-            <German>Hinweise anzeigen</German>
+        <Key ID="STR_AWR_Main_DamageIgnoreLevel_Description">
+            <English>Determines when a wound is ignored for the damage calculation.</English>
+            <German>Bestimmt wann eine Wunde für die Schadensberechnung ignoriert wird.</German>
+        </Key>
+        <Key ID="STR_AWR_Main_DamageIgnoreLevel_DisplayName">
+            <English>Wound Ignore Type</English>
+            <German>Wunden Ignorieren Art</German>
+        </Key>
+        <Key ID="STR_AWR_Main_Drag">
+            <English>Drag</English>
+            <German>Drag</German>
         </Key>
         <Key ID="STR_AWR_Main_Hints_Description">
             <English>Enable to display hints to the player e.g. if a weapon can't be used because he is too hurt.</English>
             <German>Aktivieren, um dem Spieler Hinweise anzuzeigen z.B. wenn eine Waffe nicht benutzt werden kann, da dieser zu stark verletzt ist.</German>
         </Key>
-        <Key ID="STR_AWR_Main_BandagingMultiplier_DisplayName">
-            <English>Bandaging multiplier</English>
-            <German>Bandagierungsfaktor</German>
-        </Key>
-        <Key ID="STR_AWR_Main_BandagingMultiplier_Description">
-            <English>Multiplier to be applied to the bandaging when AWR is triggered.</English>
-            <German>Faktor der auf das Bandagieren angewendet wird, wenn AWR ausgelöst wird.</German>
-        </Key>
-        <Key ID="STR_AWR_Main_IgnoreBurnDamage_DisplayName">
-            <English>Ignore burn damage?</English>
-            <German>Brand schaden ignorieren?</German>
+        <Key ID="STR_AWR_Main_Hints_DisplayName">
+            <English>Display Hints</English>
+            <German>Hinweise anzeigen</German>
         </Key>
         <Key ID="STR_AWR_Main_IgnoreBurnDamage_Description">
             <English>Determines if damage inflicted by burn wounds should be ignored. With default ACE it's not possible to bandage burn wounds. So when ignoring them units can still get up again by bandaging the regular wounds.</English>
             <German>Bestimmt, ob Schaden durch Brandverletzungen ignoriert werden sollen. Standardmäßig hat ACE keine Möglichkeit Brandverletzungen zu bandagieren. Wenn diese ignoriert werden, können die Einheiten durch verbindingen der normalen Verletzungen wieder aufstehen.</German>
         </Key>
+        <Key ID="STR_AWR_Main_IgnoreBurnDamage_DisplayName">
+            <English>Ignore burn damage?</English>
+            <German>Brand schaden ignorieren?</German>
+        </Key>
+        <Key ID="STR_AWR_Main_IgnoreChanceClasses_Description">
+            <English>List of class names to ignore for the handgun chances. Weapons of this classes will always be dropped.\nIn array format e.g.: ["class1", "class2"]</English>
+            <German>Liste von Klassennamen, welche für die Handwaffen Chance ignoriert werden. Diese Waffen werden immer fallengelassen.\nSchreibweise in Array Format z.B.: ["Klasse1", "Klasse2"]</German>
+        </Key>
+        <Key ID="STR_AWR_Main_IgnoreChanceClasses_DisplayName">
+            <English>Chance ignore classes</English>
+            <German>ignorierte Chance Klassen</German>
+        </Key>
         <Key ID="STR_AWR_Main_SLOW_BANDAGING">
             <English>Bandaging time is increased due to your injuries.</English>
             <German>Bandagierzeit ist wegen deiner Verletzungen erhöht.</German>
+        </Key>
+        <Key ID="STR_AWR_Main_SubCategory">
+            <English>General</English>
+            <German>Allgemein</German>
+        </Key>
+        <Key ID="STR_AWR_Main_URL">
+            <English>https://github.com/Spartan190/Adv_Wound_Reaction</English>
+            <German>https://github.com/Spartan190/Adv_Wound_Reaction</German>
         </Key>
     </Package>
 </Project>
